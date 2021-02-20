@@ -1,0 +1,54 @@
+h2 {
+  padding-left: 30px;
+  padding-top: 100px;
+}
+
+h3 {
+  padding-left: 30px;
+  padding-bottom: 80px;
+}
+
+h4 {
+  padding-left: 15px;
+  padding-top: 50px;
+}
+
+h5 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  color: #CFB6B9;
+}
+
+h6 {
+  padding-left: 15px;
+}
+
+.pinkText {
+  color: #CFB6B9;
+}
+
+.typewrite {
+  color: black;
+  position: relative;
+  margin-left: 110px;
+  margin-top: -33px;
+}
+
+img {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.homepics {
+  opacity: 1.0;
+}
+
+.homepics:hover {
+  opacity: 0.75;
+}
+
+p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
