@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Bridgitte Ly
+EMAIL: lybn@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Bridgitte Ly">
+  <meta name="description" content="Greek Study app redesign description page">
+   <!-- you would link to an external stylesheet here! -->
+   <link rel="stylesheet" href="my-style.css">
+   <!-- you would also link to Bootstrap here! -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <style>
+   .navbar-light .nav-item.active .nav-link,
+   .navbar-light .nav-item .nav-link:active,
+   .navbar-light .nav-item .nav-link:focus,
+   .navbar-light .nav-item:hover .nav-link {
+     color: #CFB6B9;
+    }
+    </style>
+
+  <title>Bridgitte Ly | Greek Study</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="index.html"><strong>Bridgitte</strong> Ly</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="lyre_games.html">Lyre Games</a>
+              <a class="dropdown-item" href="greek_study.html">Greek Study</a>
+              <a class="dropdown-item" href="donut_love.html">Donut Let Love Hurt</a>
+              <a class="dropdown-item" href="tbtn.html">Take Back The Night</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html">Home</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Resume.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+
+    <p> <br> <br> </p>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img class="img-fluid w-100" src="header.png" style="max-width:100%" alt="Greek Study">
+      </div>
+    </div>
+
+      <h6><strong>BACKGROUND</strong></h6>
+      <p>Greek Study is a mobile application used by college Greek organizations
+        to keep track of how many study hours each member has completed weekly.
+        Users must be at designated areas on campus in order for their hours to
+        be taken accounted for.</p>
+
+
+      <h6><strong>OBJECTIVE</strong></h6>
+      <p>Redesign the interface of Greek Study to improve the overall user experience
+        of the current app.</p>
+
+
+      <h6><strong>USER RESEARCH</strong></h6>
+      <p>I wanted to get more insight on other people's experiences using the app.
+        In addition to reading over Greek Study's ratings and reviews in the app
+        store, I reached out to both frequent and first-time users to see what issues
+        they have encountered upon using the application.
+
+        <br>These were the key pain points that I found:
+
+        <br>1. Users have a hard time figuring out how many hours they have completed for each week.
+
+        <br>2. Users find the main menu to be confusing and poorly designed.
+
+        <br>3. Users want all functions to be stored under one main menu.
+
+        <br>4. Users prefer the app to automatically start counting hours when the
+        user is in a study location rather than having to press on a button every
+        time because they tend to forget to do so, thus losing hours.</p>
+
+
+      <h6><strong>PERSONA</strong></h6>
+      <p>After conducting user research, I summarized my key findings into a target
+        user persona.</p>
+
+    <div class="row">
+      <div class="col">
+        <img class="img-fluid w-100" src="chart.png" style="max-width:100%" alt="Greek Study">
+      </div>
+    </div>
+
+
+      <h6><strong>IDEATION</strong></h6>
+      <p>From the feedback gained through user research, I found that many of the
+        issues fall into two main categories.
+
+        <br>This is what I came up with as possible solutions for these problems:
+
+        <br><u>Organization</u>
+
+        <br>- Revise the login page to eliminate clutter.
+
+        <br>- Modify the menu and placing it at the top of the screen.
+
+        <br>- Display the list of locations in alphabetical order to make them easier to find.
+
+        <br><u>Automation</u>
+
+        <br>- Get rid of the "Start Studying" button and enforce an automatic timer that starts when the user is in a designated location.
+
+        <br>- Add a total hour count feature for each week.</p>
+
+
+      <h6><strong>THE CURRENT DESIGN</strong></h6>
+      <p>This is what the screen currently looks like.</p>
+
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="screen1.jpg" style="max-width:100%" alt="Original Screen 1">
+      </div>
+      <div class="col-sm">
+        <img src="screen2.jpg" style="max-width:100%" alt="Original Screen 2">
+      </div>
+      <div class="col-sm">
+        <img src="screen3.jpg" style="max-width:100%" alt="Original Screen 3">
+      </div>
+      <div class="col-sm">
+        <img src="screen4.jpg" style="max-width:100%" alt="Original Screen 4">
+      </div>
+      <div class="col-sm">
+        <img src="screen5.jpg" style="max-width:100%" alt="Original Screen 5">
+      </div>
+    </div>
+
+
+      <h6><strong>WIREFRAMES</strong></h6>
+      <p>The new design for the user interface was based on possible solutions
+        previously curated during ideation.</p>
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="wf1.png" style="max-width:100%" alt="Wireframe 1">
+      </div>
+      <div class="col-sm">
+        <img src="wf2.png" style="max-width:100%" alt="Wireframe 2">
+      </div>
+      <div class="col-sm">
+        <img src="wf3.png" style="max-width:100%" alt="Wireframe 3">
+      </div>
+      <div class="col-sm">
+        <img src="wf4.png" style="max-width:100%" alt="Wireframe 4">
+      </div>
+      <div class="col-sm">
+        <img src="wf5.png" style="max-width:100%" alt="Wireframe 5">
+      </div>
+    </div>
+
+
+      <h6><strong>THE RESULT</strong></h6>
+      <p>The screens display the final changes that I made to the interface.</p>
+
+    <div class="row">
+      <div class="col-sm">
+        <img src="f1.png" style="max-width:100%" alt="Final Screen 1">
+      </div>
+      <div class="col-sm">
+        <img src="f2.png" style="max-width:100%" alt="Final Screen 2">
+      </div>
+      <div class="col-sm">
+        <img src="f3.png" style="max-width:100%" alt="Final Screen 3">
+      </div>
+      <div class="col-sm">
+        <img src="f4.png" style="max-width:100%" alt="Final Screen 4">
+      </div>
+      <div class="col-sm">
+        <img src="f5.png" style="max-width:100%" alt="Final Screen 5">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
