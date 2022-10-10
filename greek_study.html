@@ -1,28 +1,23 @@
 <!doctype html>
 <html lang="en">
 
-<!--
-WRITTEN BY: Bridgitte Ly
-EMAIL: lybn@uci.edu
--->
-
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Bridgitte Ly">
-  <meta name="description" content="Greek Study app redesign description page">
-   <!-- you would link to an external stylesheet here! -->
-   <link rel="stylesheet" href="my-style.css">
-   <!-- you would also link to Bootstrap here! -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="description" content="Greek Study app redesign page">
+  <!-- link to an external stylesheet here! -->
+  <link rel="stylesheet" href="my-style.css">
+  <!-- link to Bootstrap here! -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-   <style>
-   .navbar-light .nav-item.active .nav-link,
-   .navbar-light .nav-item .nav-link:active,
-   .navbar-light .nav-item .nav-link:focus,
-   .navbar-light .nav-item:hover .nav-link {
-     color: #CFB6B9;
-    }
-    </style>
+  <style>
+  .navbar-light .nav-item.active .nav-link,
+  .navbar-light .nav-item .nav-link:active,
+  .navbar-light .nav-item .nav-link:focus,
+  .navbar-light .nav-item:hover .nav-link {
+    color: #000000;
+  }
+  </style>
 
   <title>Bridgitte Ly | Greek Study</title>
 </head>
@@ -37,17 +32,19 @@ EMAIL: lybn@uci.edu
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Portfolio
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="lyre_games.html">Lyre Games</a>
               <a class="dropdown-item" href="greek_study.html">Greek Study</a>
-              <a class="dropdown-item" href="donut_love.html">Donut Let Love Hurt</a>
-              <a class="dropdown-item" href="tbtn.html">Take Back The Night</a>
+              <a class="dropdown-item" href="sap.html">SAP Transcription</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="index.html">Home</a>
+              <a class="dropdown-item" href="lyre_games.html">Lyre Games</a>
+              <a class="dropdown-item" href="donut_love.html">Donut Let Love Hurt</a>
             </div>
           </li>
           <li class="nav-item">
@@ -60,132 +57,215 @@ EMAIL: lybn@uci.edu
       </div>
     </nav>
   </div>
-
+<!--
   <div class="container">
 
     <p> <br> <br> </p>
 
   </div>
-
+-->
   <div class="container">
     <div class="row">
       <div class="col">
-        <img class="img-fluid w-100" src="header.png" style="max-width:100%" alt="Greek Study">
+        <img class="img-fluid w-100" src="GreekStudyHeaderv1.png" style="max-width:100%" alt="Greek Study banner">
       </div>
     </div>
-
-      <h6><strong>BACKGROUND</strong></h6>
-      <p>Greek Study is a mobile application used by college Greek organizations
-        to keep track of how many study hours each member has completed weekly.
-        Users must be at designated areas on campus in order for their hours to
-        be taken accounted for.</p>
-
-
-      <h6><strong>OBJECTIVE</strong></h6>
-      <p>Redesign the interface of Greek Study to improve the overall user experience
-        of the current app.</p>
-
-
-      <h6><strong>USER RESEARCH</strong></h6>
-      <p>I wanted to get more insight on other people's experiences using the app.
-        In addition to reading over Greek Study's ratings and reviews in the app
-        store, I reached out to both frequent and first-time users to see what issues
-        they have encountered upon using the application.
-
-        <br>These were the key pain points that I found:
-
-        <br>1. Users have a hard time figuring out how many hours they have completed for each week.
-
-        <br>2. Users find the main menu to be confusing and poorly designed.
-
-        <br>3. Users want all functions to be stored under one main menu.
-
-        <br>4. Users prefer the app to automatically start counting hours when the
-        user is in a study location rather than having to press on a button every
-        time because they tend to forget to do so, thus losing hours.</p>
-
-
-      <h6><strong>PERSONA</strong></h6>
-      <p>After conducting user research, I summarized my key findings into a target
-        user persona.</p>
 
     <div class="row">
       <div class="col">
-        <img class="img-fluid w-100" src="chart.png" style="max-width:100%" alt="Greek Study">
+        <h6><strong>TIMELINE</strong></h6>
+        <p>2 Weeks</p>
+      </div>
+      <div class="col">
+        <h6><strong>TEAM</strong></h6>
+        <p>Solo Project</p>
+      </div>
+      <div class="col">
+        <h6><strong>MY ROLE</strong></h6>
+        <p>UI/UX Design</p>
+      </div>
+      <div class="col">
+        <h6><strong>TOOLS</strong></h6>
+        <p>Figma</p>
       </div>
     </div>
 
 
-      <h6><strong>IDEATION</strong></h6>
-      <p>From the feedback gained through user research, I found that many of the
-        issues fall into two main categories.
-
-        <br>This is what I came up with as possible solutions for these problems:
-
-        <br><u>Organization</u>
-
-        <br>- Revise the login page to eliminate clutter.
-
-        <br>- Modify the menu and placing it at the top of the screen.
-
-        <br>- Display the list of locations in alphabetical order to make them easier to find.
-
-        <br><u>Automation</u>
-
-        <br>- Get rid of the "Start Studying" button and enforce an automatic timer that starts when the user is in a designated location.
-
-        <br>- Add a total hour count feature for each week.</p>
+    <h6><strong>BACKGROUND</strong></h6>
+    <p>Greek Study is a <strong>mobile application</strong> used by college Greek-letter 
+      organizations to <strong>keep track of how many study hours each member has completed weekly.
+      </strong> Users must be at designated areas on campus in order for their hours to be taken 
+      accounted for. 
+    </p>
 
 
-      <h6><strong>THE CURRENT DESIGN</strong></h6>
-      <p>This is what the screen currently looks like.</p>
+    <h6><strong>OBJECTIVE</strong></h6>
+    <p><strong>Redesign</strong> the interface of Greek Study to <strong>improve the overall user 
+      experience</strong> of the current app.
+    </p>
 
+
+    <h6><strong>THE CURRENT DESIGN</strong></h6>
+    <p>The screenshots below show how the application currently looks like.</p>
 
     <div class="row">
       <div class="col-sm">
-        <img src="screen1.jpg" style="max-width:100%" alt="Original Screen 1">
+        <img src="screen1.jpg" style="max-width:100%" alt="Original Login Screen">
       </div>
       <div class="col-sm">
-        <img src="screen2.jpg" style="max-width:100%" alt="Original Screen 2">
+        <img src="screen2.jpg" style="max-width:100%" alt="Original Home Screen">
       </div>
       <div class="col-sm">
-        <img src="screen3.jpg" style="max-width:100%" alt="Original Screen 3">
+        <img src="screen3.jpg" style="max-width:100%" alt="Original Menu Screen">
       </div>
       <div class="col-sm">
-        <img src="screen4.jpg" style="max-width:100%" alt="Original Screen 4">
+        <img src="screen4.jpg" style="max-width:100%" alt="Original Study Hours Screen">
       </div>
       <div class="col-sm">
-        <img src="screen5.jpg" style="max-width:100%" alt="Original Screen 5">
+        <img src="screen5.jpg" style="max-width:100%" alt="Original Locations Screen">
       </div>
     </div>
 
 
-      <h6><strong>WIREFRAMES</strong></h6>
-      <p>The new design for the user interface was based on possible solutions
-        previously curated during ideation.</p>
+    <h6><strong>USER RESEARCH</strong></h6>
+    <p>I wanted to get more insight on other people's experiences using the app. In addition to 
+      reading over Greek Study's ratings and reviews in the app store, I reached out to 
+      <strong>5 frequent</strong> and <strong>5 first-time users</strong> to see what issues 
+      they encountered upon using the application. 
+    </p>
+    
+    <p>These were the <strong>key pain points</strong> that I found: </p>
+    <img src="PainPointsv3.png" style="max-width:100%" alt="Greek Study">
+    <!--
+    <br>1. Users have a hard time figuring out how many hours they have completed for each week.
+    <br>2. Users find the multiple menus to be confusing and poorly designed; they want all 
+      functions to be stored under one main menu.
+    <br>3. Users prefer to have an actual start button to begin timing their study hours 
+      because the plain text saying "Start Studying" makes it easy to forget to press record, 
+      thus having them lose hours.
+    </p>
+    -->
+
+    <h6><strong>USER PERSONA</strong></h6>
+    <p>After gathering information from user research, I summarized my key findings into a target 
+      user persona.
+    </p>
+    <img src="chart.png" style="max-width:100%" alt="Greek Study">
+
+
+    <h6><strong>IDEATION</strong></h6>
+    <p>From the feedback obtained through user research, I categorized possible solutions to tackle 
+      each problem:
+    </p>
+
+    <p><u>Condense the study hours list</u>
+      <br><strong>- Add total hour count feature for each week</strong>
+      <br>Although there is a banner on the top of the home page that shows the user's study hours 
+      for the week, this is the only place on the entire app that the user is given this information.
+      It also only displays the hours for the current week. When looking at the Study Hours page, 
+      it's just a long list of each individual study session recorded. There isn't a section or 
+      option that shows the user how many hours they have completed for each specific week. To make 
+      the study hours list less clustered and fix <strong>pain point 1</strong>, dividing each week 
+      into its own section will make it more convienent for the user to find exactly how many hours 
+      they have completed each week. 
+    </p>
+
+    <p><u>Reconstruct the home page</u>
+      <br><strong>- Combine multiple menus into one</strong>
+      <br>On the current design of the app, there are two "menus." One is located at the top left 
+      corner of the screen. Additionally there is a taskbar with more features on the bottom 
+      of the screen. To add organization and cover <strong>pain point 2</strong>, moving all 
+      features under one menu would get rid of any confusion for the user. They can easily find 
+      what they are looking for in one place.
+      <br><strong>- Add logout button</strong>
+      <br>Instead of having logout being an option from the menu, adding a logout icon on the 
+      far right corner will allow faster and easier access for the user.
+      <br><strong>- Have an actual start button</strong>
+      <br>To resolve <strong>pain point 3</strong>, converting the "Start Studying" text to an 
+      actual button will be a visual reminder to the user to press on it to begin recording their 
+      time studying. The button will be green to attract their attention, and will turn red as the 
+      timer begins. The red will indicate that once the user is finished with their work, they will 
+      rememeber to press on it again to end and record their hours.
+    </p>
+
+    <p><em><u>Other improvements</u></em>
+      <br><strong>- Add app name to login page</strong>
+      <br>Since this is the first screen that users will see when they first open the app, the 
+      name should be displayed to let them know what it is.
+      <br><strong>- Sort locations list in alphabetical order</strong>
+      <br>All of the locations are just listed randomly and not in any specific order. Sorting 
+      the names will make them easier for the user to find what they are looking for.
+      <br><strong>- Add search feature to locations list</strong>
+      <br>If the user wanted to go to a specific location but wasn't sure if it would count 
+      towards their study hours, adding a search for the locations list can them figure that out 
+      quickly.
+    </p>
+    <!--
+    <p><u>Fix the login page</u>
+      <br><strong>- Recenter the elements on the login screen</strong>
+      <br>The first thing that I noticed when looking at the login page was the awkward and uneven 
+      spacing. Moving the logo and login information down towards the center will look more 
+      appealing to new users. 
+    </p>
+    
+    <p><u>Organize the locations list</u>
+      <br><strong>- Sort the list by name</strong>
+      <br>The original locations list had no organization or order to it. The names are just listed 
+      in a random order. Changing to list the locations in alphabetical order will make them easier 
+      for the user to find.
+      <br><strong>- Add a search feature</strong>
+      <br>Adding in a search function can help the user look up certain places to see if they are 
+      designated study areas to ensure that their study hours will count.
+    </p>
+    -->
+
+    <h6><strong>WIREFRAMES</strong></h6>
+    <p>The new design for the user interface was based on possible solutions
+        previously curated during ideation.
+    </p>
 
     <div class="row">
       <div class="col-sm">
-        <img src="wf1.png" style="max-width:100%" alt="Wireframe 1">
+        <img src="wf1.png" style="max-width:100%" alt="Login Page Wireframe">
       </div>
       <div class="col-sm">
-        <img src="HomePageWF.png" style="max-width:100%" alt="Wireframe 2">
+        <img src="HomePageWF.png" style="max-width:100%" alt="Home Page Wireframe">
       </div>
       <div class="col-sm">
-        <img src="MenuWF.png" style="max-width:100%" alt="Wireframe 3">
+        <img src="MenuWF.png" style="max-width:100%" alt="Menu Page Wireframe">
       </div>
       <div class="col-sm">
-        <img src="StudyListWF.png" style="max-width:100%" alt="Wireframe 4">
+        <img src="StudyListWF.png" style="max-width:100%" alt="Study List Page Wireframe">
       </div>
       <div class="col-sm">
-        <img src="LocationsWF.png" style="max-width:100%" alt="Wireframe 5">
+        <img src="LocationsWF.png" style="max-width:100%" alt="Locations Page Wireframe">
       </div>
     </div>
 
 
-      <h6><strong>THE RESULT</strong></h6>
-      <p>The screens display the final changes that I made to the interface.</p>
+    <h6><strong>USABILITY TESTING AND IMPROVEMENTS</strong></h6>
+    <p>I reached out to the same users that I had done interviews with to ask them for their
+      feedback on my new UI designs as they were given the task to <strong>login, find a valid 
+      study location, begin timing their study session, and check their study hours.</strong> 
+      Overall the responses were positive, but there were minor changes that came up.
+    </p>
 
+    <p><strong>1. The icons for the menu felt too big for the screen</strong> 
+      <br>To fix this, I decided to reduce their size and also remove the labeling underneath since 
+      I will be using common icons that are easily recognizable.
+    </p>
+
+    <p><strong>2. Study list is too long to scroll through</strong> 
+      <br>Instead of displaying the user's study hours as one continuous list, I added 
+      a dropdown for each week. This way, the user can easily find a specific week they're looking 
+      for and find how many hours they've completed during that time.
+    </p>
+
+
+    <h6><strong>THE RESULT</strong></h6>
+    <!--
+    <p>The screens display the final changes that I made to the interface.</p>
+  
     <div class="row">
       <div class="col-sm">
         <img src="f1.png" style="max-width:100%" alt="Final Screen 1">
@@ -197,12 +277,68 @@ EMAIL: lybn@uci.edu
         <img src="MenuMU.png" style="max-width:100%" alt="Final Screen 3">
       </div>
       <div class="col-sm">
-        <img src="StudyListOpenMU.png" style="max-width:100%" alt="Final Screen 4">
+        <img src="StudyListOpenv2MU.png" style="max-width:100%" alt="Final Screen 4">
       </div>
       <div class="col-sm">
-        <img src="LocationsMU.png" style="max-width:100%" alt="Final Screen 5">
+        <img src="Locationsv2MU.png" style="max-width:100%" alt="Final Screen 5">
       </div>
     </div>
+    -->
+    <p><strong>Login</strong>
+      <br>The awkward and uneven spacing was a major flaw in the original design of the login page. 
+      I added the name of the app, which was initially missing, and moved the logo and login 
+      information down towards the center to focus the user's attention and make the page more 
+      appealing. 
+    </p>
+    <img src="LoginDesign.png" style="max-width:100%" alt="Login Final Design">
+
+    <p><strong>Menu</strong>
+      <br>Rather than having the map be a satellite view, I changed it to a basic standard map with 
+      names being displayed at each location to make them easier to find. In addition to having a 
+      singular menu, the current location and study time are grouped together at the bottom of the 
+      screen above the start button. Users can choose to have this displayed on the screen, or they 
+      can swipe it down to clear space.
+    </p>
+    <img src="MenuDesign.png" style="max-width:100%" alt="Menu Final Design">
+
+    <p><strong>Study Hours List</strong>
+      <br>The study hours are now organized by week. Users can easily find a specific week they 
+      are looking for and click on the dropdown to see how many hours were completed. The 
+      original way that hours were accounted for also didn't make much sense. It's hard to 
+      calculate how much "1.7 hours" meant, so I changed them to display as "hours:minutes."
+    </p>
+    <img src="StudyHoursDesign.png" style="max-width:100%" alt="Study Hours Final Design">
+
+    <p><strong>Locations List</strong>
+      <br>The original locations list had no organization or order to it. The names were just 
+      listed randomly, so I changed it to sort the locations alphabetically to make it easier for 
+      the user to find a specific place. I also added in a search function to help the user look 
+      up certain places to see if they count as designated study areas to ensure that their study 
+      hours will count.
+    </p>
+    <img src="LocationsDesign.png" style="max-width:100%" alt="Locations Final Design">
+
+    <p><strong>Timer</strong>
+      <br>Making the timer bright red will acknowledge the user that time has started and remind 
+      them to end their study session once they are done. They will simply press on the button to 
+      record their hours, which will then turn back to green.
+    </p>
+    <img src="TimerDesign.png" style="max-width:100%" alt="Timer Final Design">
+
+
+    <h6><strong>KEY TAKEAWAYS</strong></h6>
+    <p>Working on this redesign project had taught me the importance of listening to the needs of 
+      the user and understanding their concerns before beginning the design process. I made sure 
+      to keep their insights in mind as I was making decisions on what needed to change. Since this 
+      was an existing app, it was a good challenge for me to improve my visual eye for design.
+    </p>
+
+    <p>The next steps for this project would be to gather more feedback as I continue iterations 
+      to grow my design skills and constantly improve the overall experience for current and future 
+      users.
+    </p>
+
+    <br>
   </div>
 
 
