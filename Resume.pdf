@@ -85688,7 +85688,21 @@ endobj
 endobj
 
 1312 0 obj
-  << /Annots []
+  << /Annots [ << /A << /S /URI
+                        /URI (mailto\072bridgittely\100gmail\056com)
+                        /Type /Action
+                     >>
+                  /Rect [ 435.000000 689.968750 555.187500 704.031250 ]
+                  /Subtype /Link
+               >>
+               << /A << /S /URI
+                        /URI (http\072\057\057www\056bridgittely\056com)
+                        /Type /Action
+                     >>
+                  /Rect [ 435.000000 705.968750 514.148438 720.031250 ]
+                  /Subtype /Link
+               >>
+             ]
      /Type /Page
      /MediaBox [ 0.000000 0.000000 595.000000 842.000000 ]
      /Resources 1309 0 R
@@ -87025,13 +87039,13 @@ xref
 0000145225 00000 n
 0003554259 00000 n
 0003554288 00000 n
-0003554475 00000 n
-0003554555 00000 n
+0003555050 00000 n
+0003555130 00000 n
 trailer
 << /ID [ (some) (id) ]
    /Root 1314 0 R
    /Size 1315
 >>
 startxref
-3554620
+3555195
 %%EOF
